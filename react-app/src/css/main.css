@@ -1,0 +1,72 @@
+a {
+   text-decoration: none;
+}
+.container {
+   text-align: center;
+}
+
+.label {
+   font-size: 10em;
+   margin-top: 30vh;
+}
+
+#truthDesc {
+   display: none; 
+   text-decoration: none;
+}
+
+#dareDesc {
+   display: none;
+   color: #b2bec3;
+   position: absolute;
+   left: 0;
+   right: 0;
+   margin: auto;
+}
+
+.truth {
+   text-decoration: none;
+   color: #2d3436;
+   background: #b2bec3;
+   height: 100vh;
+}
+
+.truth:hover {
+   cursor: pointer;
+}
+
+.truth:hover #truthDesc{
+   display: block;
+   text-decoration: none !important;
+   color: #2d3436;
+   background: #b2bec3;
+}
+
+.dare {
+   color: #dfe6e9;
+   background: #2d3436;
+   height: 100vh;
+}
+
+.dare:hover {
+   cursor: pointer;
+}
+
+.dare:hover #dareDesc{
+   text-decoration: none !important;
+   display: block;
+}
+
+#modalBtn {
+   margin-top: 35vh;
+   margin-left: 35vw;
+   color: #b2bec3;
+   background-color: #2d3436;
+   font-weight: 500;
+   border: 2px #b2bec3 solid;
+}
+
+#modalBtn:hover {
+   background-color: #1d3436;
+}
+
